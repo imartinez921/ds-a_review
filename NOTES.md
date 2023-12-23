@@ -1,5 +1,6 @@
 - [Balanced Brackets](#balanced-brackets)
-- [PointsThat Intersect With Cars](#pointsthat-intersect-with-cars)
+- [Points That Intersect With Cars](#points-that-intersect-with-cars)
+- [Merge Intervals](#merge-intervals)
 
 
 ## Balanced Brackets
@@ -8,5 +9,8 @@
 -   If you .pop an empty array, it returns undefined
 -   Be careful the punctuation inside the set-up for a for loop
 
-## PointsThat Intersect With Cars
+## Points That Intersect With Cars
+- UNSOLVED
+
+## Merge Intervals
 - UNSOLVED
