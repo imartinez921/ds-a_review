@@ -1,6 +1,8 @@
 - [Balanced Brackets](#balanced-brackets)
 - [Points That Intersect With Cars](#points-that-intersect-with-cars)
 - [Merge Intervals](#merge-intervals)
+- [Rate Limiter](#rate-limiter)
+- [Two Sum](#two-sum)
 
 
 ## Balanced Brackets
@@ -14,3 +16,12 @@
 
 ## Merge Intervals
 - UNSOLVED
+
+## Rate Limiter
+- UNSOLVED
+
+## Two Sum
+- [ ] SOLVE in Python
+  - [ ] DO IT WITH A HASH MAP in python
+- [ ] Review double for loop
+- [ ] CHALLENGE: what about using MAP WITH INDEX
