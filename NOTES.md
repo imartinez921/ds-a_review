@@ -1,9 +1,15 @@
+- [Invert Binary Tree](#invert-binary-tree)
 - [Balanced Brackets](#balanced-brackets)
 - [Points That Intersect With Cars](#points-that-intersect-with-cars)
 - [Merge Intervals](#merge-intervals)
 - [Rate Limiter](#rate-limiter)
 - [Two Sum](#two-sum)
 
+
+## Invert Binary Tree
+- YOU MUST WORK ON THE ROOT NODE FIRST!
+  - Wrap the root node in a queue and then start your queue loop
+- Not sure how long I took because of this stupid stopwatch resetting 😅 
 
 ## Balanced Brackets
 -   25mins, but I couldn't troubleshoot my solution, which was failing
