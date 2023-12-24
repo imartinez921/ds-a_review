@@ -39,11 +39,13 @@ for (let x of characters) {
 - **N.B. Splice is an ARRAY METHOD, not for strings!**
 
 ## Invert Binary Tree
+![invertBinaryTree.png](invertBinaryTree.png)
 - YOU MUST WORK ON THE ROOT NODE FIRST!
   - Wrap the root node in a queue and then start your queue loop
 - Not sure how long I took because of this stupid stopwatch resetting 😅 
 
 ## Balanced Brackets
+![balancedBrackets.png](balancedBrackets.png)
 -   25mins, but I couldn't troubleshoot my solution, which was failing
     -   BEWARE THE LOGIC OF && vs ||
 -   If you .pop an empty array, it returns undefined
