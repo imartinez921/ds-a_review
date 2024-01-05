@@ -24,17 +24,11 @@ function minimumWaitingTime(queries) {
 function minimumWaitingTime(queries) {
 	const numericOrder = (a, b) => a - b;
 
-	const totalWaitTime = 
-        queries
-            .sort(numericOrder)
-            .reduce( // reduce runs for each element
-                ( totalWait, ele, idx // accumulation variable, current element, current index
-                ) => {
-                    let remainingEles = queries.length - 1 - idx;
-                    // - 1 to disregard the last ele
-                    totalWait + ele * remainingEles;
-                },
-                0
-	        );
+	const totalWaitTime = queries
+		.sort(numericOrder)
+		.reduce((totalWait, ele, idx) => {
+			let remainingEles = queries.length - idx - 1;
+			return totalWait + ele * remainingEles;
+		}, 0);
 	return totalWaitTime;
 }

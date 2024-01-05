@@ -31,6 +31,8 @@
   - Therefore, take each query and multiple by how many elements to the right of it, then sum to an initial sum of 0
 - BEWARE: declaring variables instead of reassigning them!!!
 - BEWARE: .sort requires a function that will return -, 0, or +. Negative will return a before b.
+- BEWARE: reduce statement will take the return and add it to the accumulator var
+
 
 ## Middle Node
 - Javascript does NOT have until loop! Used `while` or `do...while` loop
