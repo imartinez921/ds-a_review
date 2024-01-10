@@ -1,6 +1,9 @@
 
-- [!! Minimum Waiting Time](#-minimum-waiting-time)
-- [Middle Node](#middle-node)
+
+- [Tournament Winner](#tournament-winner)
+- [!! Find Three Largest Numbers](#-find-three-largest-numbers)
+- [!!! Minimum Waiting Time](#-minimum-waiting-time)
+- [! Middle Node](#-middle-node)
   - [Double Pointer Solution](#double-pointer-solution)
   - [Run full count then half count solution](#run-full-count-then-half-count-solution)
 - [Knuth-Morris-Pratt (KMP) Algorithm](#knuth-morris-pratt-kmp-algorithm)
@@ -18,7 +21,25 @@
 
 
 
-## !! Minimum Waiting Time
+## Tournament Winner
+- Good job noticing where the problem was trying to be tricky
+- Good job noticing how to use parallel arrays
+- Hashmap is good at keeping track of values when you don't already have them (eg. team names)
+- CONSIDER using `let ___ in` when looping through an array – since we are using the index specifically, we can assign a variable to the index, eg. round
+- BEWARE: So you're using a for loop. WHAT VARIABLES NEED TO CHANGE AT EVERY ITERATION OF THE LOOP???
+  - Why did you declare a variable? What are you using it for?
+
+## !! Find Three Largest Numbers
+- You did not break it down into even more modular helper functions
+- Think like conditionals. What happens in this case? Anddd what about this case (else if)? What about all other cases? (else)
+- Think about order. Is least to greatest more efficient or vice versa?
+- BEWARE: When you begin comparing elements of an array to itself, take note of the first value:
+  - Are you skipping it?
+  - Are you duplicating it?
+  - Is there something else you can use for initial comparison?
+- BEWARE: .sort takes a callback function OR write it inline, not both
+
+## !!! Minimum Waiting Time
 - You did not understand the problem
   - Needed to cover the base case where one ele would return waiting time of 0
   - Needed to pick the order so the total waiting time will be the least
@@ -34,7 +55,7 @@
 - BEWARE: reduce statement will take the return and add it to the accumulator var
 
 
-## Middle Node
+## ! Middle Node
 - Javascript does NOT have until loop! Used `while` or `do...while` loop
   - [JS loops](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
     - "a `do...while`\` loop is guaranteed to run at least once, even if the condition expression already evaluates to true"
